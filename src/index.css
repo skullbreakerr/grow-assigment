@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+input{
+    @apply flex h-[2vw] bg-slate-200 font-extrabold  text-blue-400 px-[2px] py-[1px] mx-auto my-[0.5vw];
+}
