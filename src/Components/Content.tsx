@@ -7,7 +7,7 @@ interface ContentProps {
 
 const Content: React.FC<ContentProps> = ({ posts }) => {
     return (
-        <div className=" top-[900%] grid flex-row place-content-center h-screen w-screen p-[4vw] gap-3 bg-red-400">
+        <div className=" top-[900%] grid flex-row place-content-center h-screen w-screen p-[4vw] gap-3">
             {posts.map((post) => (
                 <div key={post.id} className="relative">
                     <h3>{post.userId}</h3>
