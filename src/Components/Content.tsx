@@ -1,5 +1,5 @@
 import React from "react";
-import { Post } from "../Model"; // Import the Post model
+import { Post } from "../model"; // Import the Post model
 
 interface ContentProps {
     posts: Post[];
