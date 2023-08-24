@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Fetcher } from "../Fetcher";
 import Content from "../Components/Content";
-import { Post } from "../Model"; // Import the Post model
+import { Post } from "../model"; // Import the Post model
 
 function SecondPage() {
     const [posts, setPosts] = useState<Post[]>([]);
